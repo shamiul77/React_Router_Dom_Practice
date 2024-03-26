@@ -5,6 +5,7 @@ import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
 import Blogs from "./Pages/Blogs";
 import Contact from "./Pages/Contact";
+import Info from './Pages/Info';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/info" element={<Info/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
